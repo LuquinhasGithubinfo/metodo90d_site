@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build --force",
-    "preview": "npx vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -14,5 +14,8 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "vite": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
