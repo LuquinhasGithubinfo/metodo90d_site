@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build",
-    "preview": "npx vite preview"
+  "dev": "npx vite",
+  "build": "npx vite build --force",
+  "preview": "npx vite preview"
+}
   },
   "dependencies": {
     "react": "^18.2.0",
